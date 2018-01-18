@@ -8,8 +8,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-
-        <NavBar />
+        <div className='navbars fixed-top'>
+          <NavBar />
+        </div>
 
       </div>
     );
