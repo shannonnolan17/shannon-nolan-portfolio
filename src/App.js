@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './Components/NavBar';
-import CarouselTop from './Components/CarouselTop';
 import { Carousel } from 'react-responsive-carousel';
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Navbar, Jumbotron, Button, Modal } from 'react-bootstrap';
@@ -30,7 +29,7 @@ class App extends Component {
         </Carousel>
 
         <div className="carousel-caption carousel-text">
-          <h1 className="carousel-title">Shannon Nolan</h1>
+          <h1 className="carousel-title">SHANNON NOLAN</h1>
         </div>
 
         </div>
