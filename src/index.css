@@ -27,3 +27,8 @@ body {
   right: 45%;
   overflow: auto;
 }
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 80px;
+}
