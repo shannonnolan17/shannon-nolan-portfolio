@@ -5,19 +5,19 @@ body {
 }
 
 .carousel {
-  height: 590px;
+  height: 770px;
   position: absolute;
 }
 
 .carousel-image {
-  height: 590px;
+  height: 770px;
   width: 100%;
 }
 
 .carousel-title {
   text-align: left;
   font-family: 'Megrim', cursive;
-  font-size: 120px;
+  font-size: 140px;
   font-weight: bold;
 }
 

@@ -30,7 +30,7 @@ class App extends Component {
         </Carousel>
 
         <div className="carousel-caption carousel-text">
-          <h1 className="carousel-title">Welcome</h1>
+          <h1 className="carousel-title">Shannon Nolan</h1>
         </div>
 
         </div>
