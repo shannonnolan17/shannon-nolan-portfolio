@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class AboutMe extends Component {
   render() {
     return (
-      <div className="about-me">
+      <div className="about-me flex-parent">
         <h1 className="title responsive-text">About Me</h1>
         <p>Welcome to my portfolio! I am a former teacher turned techie that loves all things web development. I graduated from West Chester University in 2015 with a bachelor's degree in Elementary Education. After graudating, I taught for two years in an elementary school before I decided I needed a change. I noticed that I always loved bringing technology into the classroom and that my favorite days were the ones that I could play around with the latest educational technology tools. This led to me realizing that I wanted to go into the tech world.
 

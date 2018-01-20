@@ -34,7 +34,7 @@ body {
 }
 
 .flex-parent {
-  display: flex;
+  display: flex-inline;
 }
 
 .flex-child {
