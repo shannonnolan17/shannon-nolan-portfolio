@@ -11,11 +11,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className='navbars fixed-top'>
+        <div className='navbars fixed-top container'>
           <NavBar />
         </div>
 
-        <div className="container-flex img-overlay">
+        <div className="container-flex container img-overlay">
 
         <Carousel className="carousel" autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
           <div>
@@ -30,7 +30,7 @@ class App extends Component {
         </Carousel>
 
         <div className="carousel-caption carousel-text">
-          <h1 className="carousel-title">SHANNON NOLAN</h1>
+          <h1 className="carousel-title responsive-text">SHANNON NOLAN</h1>
         </div>
 
         </div>
