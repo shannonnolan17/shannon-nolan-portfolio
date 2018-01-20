@@ -15,7 +15,7 @@ class App extends Component {
           <NavBar />
         </div>
 
-        <div className="container-flex img-overlay">
+        <div className="flex-parent">
 
         <Carousel className="carousel" autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
           <div>
@@ -29,8 +29,8 @@ class App extends Component {
           </div>
         </Carousel>
 
-        <div className="carousel-caption carousel-text">
-          <h1 className="carousel-title">SHANNON NOLAN</h1>
+        <div className="carousel-caption flex-parent carousel-text">
+          <h1 className="carousel-title responsive-text">SHANNON NOLAN</h1>
         </div>
 
         </div>
