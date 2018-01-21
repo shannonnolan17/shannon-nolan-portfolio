@@ -11,13 +11,15 @@ import { Navbar, Jumbotron, Button, Modal } from 'react-bootstrap';
 class App extends Component {
 
   constructor() {
+    super()
+
     this.state = { tabIndex: 0 };
   }
 
 
   render() {
     return (
-      <div className="App">
+      <div>
         <div className='navbars fixed-top'>
           <NavBar />
         </div>
@@ -45,21 +47,19 @@ class App extends Component {
         <div>
           <Tabs selectedIndex={this.state.tabIndex} onSelect={tabIndex => this.setState({ tabIndex })}>
             <TabList>
-              <Tab>Title 1</Tab>
-              <Tab>Title 2</Tab>
+              <Tab>About Me</Tab>
+              <Tab>Projects</Tab>
             </TabList>
 
             <TabPanel>
-              <h2>Any content 1</h2>
+              <div>
+                <AboutMe />
+              </div>
             </TabPanel>
             <TabPanel>
               <h2>Any content 2</h2>
             </TabPanel>
           </Tabs>
-        </div>
-
-        <div>
-          <AboutMe />
         </div>
 
       </div>
