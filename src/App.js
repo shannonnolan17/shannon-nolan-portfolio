@@ -1,16 +1,26 @@
 import React, { Component } from 'react';
+import './App.sass';
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './Components/NavBar';
 import AboutMe from './Components/AboutMe';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { Carousel } from 'react-responsive-carousel';
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Navbar, Jumbotron, Button, Modal } from 'react-bootstrap';
 
 class App extends Component {
+
+  constructor() {
+    super()
+
+    this.state = { tabIndex: 0 };
+  }
+
+
   render() {
     return (
-      <div className="App">
+      <div>
         <div className='navbars fixed-top'>
           <NavBar />
         </div>
@@ -36,7 +46,22 @@ class App extends Component {
         </div>
 
         <div>
-          <AboutMe />
+          <Tabs selectedIndex={this.state.tabIndex} onSelect={tabIndex => this.setState({ tabIndex })}>
+
+            <div className="tab flex-parent">
+              <Tab>About Me</Tab>
+              <Tab>Projects</Tab>
+            </div>
+
+            <TabPanel>
+              <div>
+                <AboutMe />
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <h2>Any content 2</h2>
+            </TabPanel>
+          </Tabs>
         </div>
 
       </div>
