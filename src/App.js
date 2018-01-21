@@ -47,10 +47,11 @@ class App extends Component {
 
         <div>
           <Tabs selectedIndex={this.state.tabIndex} onSelect={tabIndex => this.setState({ tabIndex })}>
-            <TabList>
+
+            <div className="tab flex-parent">
               <Tab>About Me</Tab>
               <Tab>Projects</Tab>
-            </TabList>
+            </div>
 
             <TabPanel>
               <div>
