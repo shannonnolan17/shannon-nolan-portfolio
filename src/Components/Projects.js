@@ -29,6 +29,13 @@ class Projects extends Component {
 
             <div className="good-grief">
               <img className="project-image" src={require('../home_page.png')} alt="Forever Aloaner Home Page"/>
+              <p>Good Grief is a mobile-first web application that strives to assist people move through the five stages of grief after a relationship dissolution. It aims to facilitate the process of healing from a broken heart by providing a collection of resources specifically tailored to each stage, as well as a safe environment to connect with others going through similar experiences. Some features include:</p>
+              <ul>
+                <li>Users can set goals and delete them upon completion</li>
+                <li>Users can write journal entries that are timestamped and read previous entries</li>
+                <li>Users can take a quiz to determine if they ready to move on from their current stage</li>
+                <li>Users can chat with other users who are in the same stage in a chatroom</li>
+              </ul>
             </div>
           </div>
 
