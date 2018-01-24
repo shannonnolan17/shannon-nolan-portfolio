@@ -5,7 +5,10 @@ class Projects extends Component {
     return (
       <div className="projects">
         <div>
-          <h4 className="project-title">DBC Projects</h4>
+          <h1 className="title responsive-text">Projects</h1>
+          <div className="social">
+            <a href="https://github.com/shannonnolan17"><img src="https://s10.postimg.org/t1xakfm7d/social-github.png" alt="github" /></a>
+          </div>
         </div>
 
       </div>
