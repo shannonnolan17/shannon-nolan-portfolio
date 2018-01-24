@@ -48,6 +48,15 @@ body {
 
 }
 
+.social-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.project-image {
+  height: 400px;
+  width: 700px;
+}
 
 
 @media only screen and (max-width: 400px) {
