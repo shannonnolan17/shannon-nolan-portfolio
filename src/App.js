@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './Components/NavBar';
 import AboutMe from './Components/AboutMe';
+import Footer from './Components/Footer';
 import Projects from './Components/Projects';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { Carousel } from 'react-responsive-carousel';
@@ -46,7 +47,7 @@ class App extends Component {
 
         </div>
 
-        <div>
+        <div className="tab-section">
           <Tabs selectedIndex={this.state.tabIndex} onSelect={tabIndex => this.setState({ tabIndex })}>
 
             <div className="tab flex-parent">
@@ -63,6 +64,10 @@ class App extends Component {
               <Projects />
             </TabPanel>
           </Tabs>
+        </div>
+
+        <div className="footer">
+          <Footer />
         </div>
 
       </div>
