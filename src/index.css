@@ -58,6 +58,16 @@ body {
   width: 700px;
 }
 
+.footer {
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: red;
+ color: white;
+ text-align: center;
+}
+
 
 @media only screen and (max-width: 400px) {
   .responsive-text { font-size:310%;}
