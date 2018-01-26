@@ -51,6 +51,7 @@ body {
 .social-icon {
   height: 40px;
   width: 40px;
+  padding: 2px;
 }
 
 .project-image {
@@ -63,7 +64,8 @@ body {
  left: 0;
  bottom: 0;
  width: 100%;
- background-color: red;
+ height: 5%;
+ background-color: #B8D8D8;
  color: white;
  text-align: center;
 }
