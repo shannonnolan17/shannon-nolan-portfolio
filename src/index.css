@@ -48,6 +48,14 @@ body {
 
 }
 
+.navbars {
+ background-color: #B8D8D8;
+
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
 
 .react-tabs__tab {
   display: inline;
