@@ -11,7 +11,7 @@ class Projects extends Component {
             <a href="https://github.com/shannonnolan17"><img className="social-icon" src="https://s10.postimg.org/t1xakfm7d/social-github.png" alt="github" /></a>
           </div>
 
-          <div className="project-descriptions flex-parent">
+          <div className="project-descriptions paragraph-text flex-parent">
             <div className="forever-aloaner">
               <img className="project-image" src={require('../landing-page.png')} alt="Forever Aloaner Home Page"/>
               <p>Forever Aloaner is a full rails web application that allows users to interact, chat, loan, and borrow items from one another. Some features include:</p>
@@ -23,6 +23,7 @@ class Projects extends Component {
                 <li>Users can review a person they have loaned an item to</li>
                 <li>In-app private messaging</li>
               </ul>
+
               <a href="https://foreveraloaner.herokuapp.com/">See it deployed!</a>
             </div>
 
