@@ -39,10 +39,12 @@ body {
 }
 
 .flex-parent {
-  display: flex-inline;
+  display: flex;
+  flex-direction: row;
 }
 
 .flex-child {
+  flex-direction: row;
 
 }
 
@@ -85,6 +87,13 @@ body {
 .paragraph-text {
   font-size: 24px;
   padding: 20px;
+}
+
+
+
+.project-text {
+  display: flex;
+  flex-direction: row;
 }
 
 .pictures {
