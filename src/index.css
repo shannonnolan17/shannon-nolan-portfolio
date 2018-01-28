@@ -48,6 +48,7 @@ body {
 
 }
 
+
 .react-tabs__tab {
   display: inline;
   font-size: 24px;
@@ -85,10 +86,20 @@ body {
 }
 
 .paragraph-text {
-  font-size: 24px;
+  font-size: 18px;
   padding: 20px;
 }
 
+.second-title{
+  display: inline;
+  font-size: 20px;
+  padding: 20px;
+  font-style: italic;
+
+}
+.project-icon {
+  display: inline;
+}
 
 
 .project-text {

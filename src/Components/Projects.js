@@ -7,11 +7,11 @@ class Projects extends Component {
         <div>
           <h1 className="title responsive-text">Projects</h1>
           <div className="social">
-            <p>Check out the projects on GitHub:</p>
-            <a href="https://github.com/shannonnolan17"><img className="social-icon" src="https://s10.postimg.org/t1xakfm7d/social-github.png" alt="github" /></a>
+            <p className="second-title">Check out the projects on GitHub:</p>
+            <a href="https://github.com/shannonnolan17"><img className="social-icon project-icon" src="https://s10.postimg.org/t1xakfm7d/social-github.png" alt="github" /></a>
           </div>
 
-          <div className="project-descriptions flex-parent">
+          <div className="project-descriptions paragraph-text flex-parent">
             <div className="forever-aloaner">
               <img className="project-image flex-child" src={require('../landing-page.png')} alt="Forever Aloaner Home Page"/>
               <p className="flex-child">Forever Aloaner is a full rails web application that allows users to interact, chat, loan, and borrow items from one another. Some features include:</p>
