@@ -74,6 +74,12 @@ body {
  text-align: center;
 }
 
+.about-me-pic {
+  height: 250px;
+  width: 260px;
+  border-radius: 50%;
+}
+
 
 @media only screen and (max-width: 400px) {
   .responsive-text { font-size:310%;}

@@ -5,7 +5,7 @@ class AboutMe extends Component {
     return (
       <div className="about-me flex-parent">
         <h1 className="title responsive-text">About Me</h1>
-        <div>
+        <div className="pictures">
           <img className="about-me-pic" src={require('../IMG_6489.JPG')} alt="me"/>
         </div>
         <div className="about-me-section">
