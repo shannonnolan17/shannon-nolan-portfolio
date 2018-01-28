@@ -35,14 +35,26 @@ body {
 .title {
   font-family: 'Roboto', sans-serif;
   font-size: 80px;
+  text-align: center;
 }
 
 .flex-parent {
-  display: flex-inline;
+  display: flex;
+  flex-direction: row;
 }
 
 .flex-child {
+  flex-direction: row;
 
+}
+
+.navbars {
+ background-color: #B8D8D8;
+
+}
+
+.navbar {
+  margin-bottom: 0px;
 }
 
 .react-tabs__tab {
@@ -74,6 +86,58 @@ body {
  text-align: center;
 }
 
+.about-me-pic {
+  height: 220px;
+  width: 240px;
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+.paragraph-text {
+  font-size: 18px;
+  padding: 20px;
+}
+
+.second-title{
+  display: inline;
+  font-size: 20px;
+  padding: 20px;
+  font-style: italic;
+}
+
+.good-grief {
+  padding: 10px;
+}
+
+.forever-aloaner {
+  padding: 10px;
+}
+
+.vertical-line {
+  border-left: solid;
+
+}
+
+.project-icon {
+  display: inline;
+}
+
+
+.project-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.pictures {
+  position: relative;
+  display: inline-block;
+  left: 40%;
+}
+ .inline-css {
+  position: relative;
+  display: inline-block;
+  left: 35%;
+ }
 
 @media only screen and (max-width: 400px) {
   .responsive-text { font-size:310%;}
