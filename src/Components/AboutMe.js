@@ -46,6 +46,7 @@ class AboutMe extends Component {
             <li>Flex Box</li>
             <li>Carousels</li>
             <li>Fronted Design</li>
+            <li>Sticky stuff</li>
             </ul>
         </div>
       </div>

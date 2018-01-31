@@ -44,6 +44,7 @@ class Projects extends Component {
           </div>
 
         <h2>The Not-As-Big-Kahunas</h2>
+        <p>The Reelist- A client based project. Those polymorphic associations though...</p>
 
         </div>
 
