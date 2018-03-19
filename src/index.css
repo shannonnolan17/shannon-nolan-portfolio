@@ -139,6 +139,10 @@ body {
   left: 35%;
  }
 
+ .learning, .hobbies {
+  padding-left: 50px;
+ }
+
 @media only screen and (max-width: 400px) {
   .responsive-text { font-size:310%;}
 }

@@ -13,42 +13,49 @@ class AboutMe extends Component {
 
             In June of 2017 I decided I wanted to do a coding bootcamp after talking with a couple friends who went through similar programs. In my research, I came across DevBootcamp and instantly knew that was where I wanted to go. DevBootcamp is an 18 week intensive full-stack web development program that included individual challenges, group projects, and daily pair programming. Built dynamic web applications with Ruby on Rails, React, HTML5, CSS, and JavaScript. I applied and got in and traveled to San Francisco in order to complete the program in November of 2017. As the last cohort of DevBootcamp, I had the unique opportunity to stay for a couple extra weeks and complete two final projects. Both of these projects can be found under the project tab. It has been a whirlwind experience but definitely the best decision of my life. </p>
 
-            <p>Currently, I am looking for a job as Software Engineer in San Francisco, CA. My skills include:</p>
-            <ul>
-              <li>Ruby on Rails</li>
-              <li>React</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Ruby</li>
-              <li>JavaScript</li>
-              <li>SQL</li>
-            </ul>
-            <h3>Let's get personal</h3>
-            <p>I have hobbies and likes. Here are some:</p>
-            <ul>
-            <li>Photography</li>
-            <li>Running</li>
-            <li>Yoga</li>
-            <li>Listening to music too loud</li>
-            <li>Cookies</li>
-            <li>Dogs</li>
-            <li>Makeup</li>
-            <li>TV/Netflix</li>
-            <li>Dogs</li>
-            <li>Pizza</li>
-            </ul>
+              <p>Currently, I am looking for a job as Software Engineer in San Francisco, CA. My skills include:</p>
+              <ul>
+                <li>Ruby on Rails</li>
+                <li>React</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Ruby</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+              </ul>
+            </div>
+          <div className= "flex-parent">
+            <div className="flex-child hobbies">
+              <h3>Let's get personal</h3>
+              <p>I have hobbies and likes. Here are some:</p>
+              <ul>
+              <li>Photography</li>
+              <li>Running</li>
+              <li>Yoga</li>
+              <li>Listening to music too loud</li>
+              <li>Cookies</li>
+              <li>Dogs</li>
+              <li>Makeup</li>
+              <li>TV/Netflix</li>
+              <li>Dogs</li>
+              <li>Pizza</li>
+              </ul>
+            </div>
 
-            <h3>What am I up to?</h3>
-            <p>I'm always learning! Currently I am learning all about...</p>
-            <ul>
-            <li>ReactJS</li>
-            <li>SASS</li>
-            <li>Flex Box</li>
-            <li>Carousels</li>
-            <li>Fronted Design</li>
-            <li>Sticky stuff</li>
-            </ul>
+            <div className="flex-child learning">
+              <h3>What am I up to?</h3>
+              <p>I'm always learning! Currently I am learning all about...</p>
+              <ul>
+              <li>ReactJS</li>
+              <li>SASS</li>
+              <li>Flex Box</li>
+              <li>Carousels</li>
+              <li>Fronted Design</li>
+              <li>Sticky stuff</li>
+              </ul>
+            </div>
         </div>
+
       </div>
     );
   }
