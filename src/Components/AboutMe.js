@@ -13,7 +13,7 @@ class AboutMe extends Component {
 
             In June of 2017 I decided I wanted to do a coding bootcamp after talking with a couple friends who went through similar programs. In my research, I came across DevBootcamp and instantly knew that was where I wanted to go. DevBootcamp is an 18 week intensive full-stack web development program that included individual challenges, group projects, and daily pair programming. Built dynamic web applications with Ruby on Rails, React, HTML5, CSS, and JavaScript. I applied and got in and traveled to San Francisco in order to complete the program in November of 2017. As the last cohort of DevBootcamp, I had the unique opportunity to stay for a couple extra weeks and complete two final projects. Both of these projects can be found under the project tab. It has been a whirlwind experience but definitely the best decision of my life. </p>
 
-              <p>Currently, I am looking for a job as Software Engineer in San Francisco, CA. My skills include:</p>
+              <p><strong>Currently, I am looking for a job as Software Engineer in San Francisco, CA. My skills include:</strong></p>
               <ul>
                 <li>Ruby on Rails</li>
                 <li>React</li>
