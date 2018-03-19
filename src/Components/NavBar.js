@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
 import { Navbar } from 'react-bootstrap';
+import ContactMe from './ContactMe';
 
 class NavBar extends Component {
   render() {
     return (
-      <div className="NavBar">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand" href="#">Home</a>
-          <p>Contact Me</p>
-
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-
-          </div>
+      <div className="navbar navbars">
+        <nav class="nav nav-pills nav-fill">
+          <a class="nav-item nav-link active" href="#">Home</a>
+          <a class="nav-item nav-link" href="#">Contact Me</a>
+          <a class="nav-item nav-link" href="#">Link</a>
         </nav>
+
       </div>
     );
   }

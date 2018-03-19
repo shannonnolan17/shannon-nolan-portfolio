@@ -5,6 +5,7 @@ import './App.css';
 import NavBar from './Components/NavBar';
 import AboutMe from './Components/AboutMe';
 import Footer from './Components/Footer';
+// import ContactMe from './Components/ContactMe';
 import Projects from './Components/Projects';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { Carousel } from 'react-responsive-carousel';
