@@ -10,7 +10,6 @@ class NavBar extends Component {
           <a class="nav-item nav-link active" href="#">Home</a>
           <a class="nav-item nav-link" href="#">Contact Me</a>
           <a class="nav-item nav-link" href="#">Link</a>
-          <a class="nav-item nav-link disabled" href="#">Disabled</a>
         </nav>
 
       </div>
