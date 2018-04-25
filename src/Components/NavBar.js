@@ -9,7 +9,6 @@ class NavBar extends Component {
         <nav class="nav nav-pills nav-fill">
           <a class="nav-item nav-link active" href="#">Home</a>
           <a class="nav-item nav-link" href="#">Contact Me</a>
-          <a class="nav-item nav-link" href="#">Link</a>
         </nav>
 
       </div>
