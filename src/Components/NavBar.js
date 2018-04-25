@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { Navbar } from 'react-bootstrap';
 import ContactMe from './ContactMe';
+import { Link } from 'react-router-dom';
 
 class NavBar extends Component {
   render() {
     return (
       <div className="navbar navbars">
         <nav class="nav nav-pills nav-fill">
-          <a class="nav-item nav-link active" href="#">Home</a>
-          <a class="nav-item nav-link" href="#">Contact Me</a>
-          <a class="nav-item nav-link" href="#">Link</a>
+          <li><Link to='/'>Home</Link></li>
+          <li><Link to='/contact'>Contact Me</Link></li>
         </nav>
 
       </div>

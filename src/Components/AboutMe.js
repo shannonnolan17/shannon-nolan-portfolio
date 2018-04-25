@@ -50,8 +50,9 @@ class AboutMe extends Component {
               <li>SASS</li>
               <li>Flex Box</li>
               <li>Carousels</li>
-              <li>Fronted Design</li>
               <li>Sticky stuff</li>
+              <li>Python</li>
+              <li>Redux</li>
               </ul>
             </div>
         </div>
