@@ -8,9 +8,8 @@ class NavBar extends Component {
     return (
       <div className="navbar navbars">
         <nav class="nav nav-pills nav-fill">
-          <Link to='/'>Home</Link>
-          <Link to='/contact'>Contact Me</Link>
-          <a class="nav-item nav-link" href="#">Contact Me</a>
+          <li><Link to='/'>Home</Link></li>
+          <li><Link to='/contact'>Contact Me</Link></li>
         </nav>
 
       </div>
