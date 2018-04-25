@@ -52,6 +52,8 @@ class AboutMe extends Component {
               <li>Carousels</li>
               <li>Fronted Design</li>
               <li>Sticky stuff</li>
+              <li>Python</li>
+              <li>Redux</li>
               </ul>
             </div>
         </div>
