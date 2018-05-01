@@ -1,16 +1,19 @@
 import React from 'react'
-import { Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import App from '../App'
 import ContactMe from './ContactMe'
 
 
 const Main = () => (
-  <main>
-    <Switch>
-      <Route exact path='/' component={App}/>
-      <Route path='/contact' component={ContactMe}/>
-    </Switch>
-  </main>
+  <div>
+    <Router>
+      <Switch>
+        <Route exact path='/' component={App}/>
+        <Route exact path="/contact" component={ContactMe}/>
+      </Switch>
+    </Router>
+  </div>
 )
 
 export default Main
+

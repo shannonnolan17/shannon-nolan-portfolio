@@ -6,9 +6,6 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-render((
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
-), document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
 
