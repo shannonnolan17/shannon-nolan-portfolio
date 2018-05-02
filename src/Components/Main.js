@@ -6,12 +6,7 @@ import ContactMe from './ContactMe'
 
 const Main = () => (
   <div>
-    <Router>
-      <Switch>
-        <Route exact path='/' component={App}/>
-        <Route path="/contact" component={ContactMe}/>
-      </Switch>
-    </Router>
+
 
   </div>
 )

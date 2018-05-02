@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.sass';
 import logo from './logo.svg';
 import './App.css';
-import NavBar from './Components/NavBar';
+// import NavBar from './Components/NavBar';
 import AboutMe from './Components/AboutMe';
 // import Main from './Components/Main';
 import ContactMe from './Components/ContactMe';
@@ -29,8 +29,6 @@ class App extends Component {
     return (
 
       <div>
-
-
         <div className='navbars fixed-top'>
           <NavBar />
         </div>

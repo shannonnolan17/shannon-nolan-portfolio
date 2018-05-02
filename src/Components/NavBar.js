@@ -11,12 +11,12 @@ class NavBar extends Component {
     return (
       <div className="navbar navbars">
           <nav class="nav nav-pills nav-fill">
-          <Router>
+
             <div>
               <Link to='/'>Home</Link>
               <Link to='/contact'>Contact Me</Link>
             </div>
-          </Router>
+
           </nav>
 
       </div>
