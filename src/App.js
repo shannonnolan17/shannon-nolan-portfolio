@@ -2,14 +2,16 @@ import React, { Component } from 'react';
 import './App.sass';
 import logo from './logo.svg';
 import './App.css';
-import NavBar from './Components/NavBar';
+// import NavBar from './Components/NavBar';
 import AboutMe from './Components/AboutMe';
-import Main from './Components/Main';
+// import Main from './Components/Main';
 import ContactMe from './Components/ContactMe';
 import Footer from './Components/Footer';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // import ContactMe from './Components/ContactMe';
 import Projects from './Components/Projects';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+// import {withRouter} from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Navbar, Jumbotron, Button, Modal } from 'react-bootstrap';
@@ -25,6 +27,7 @@ class App extends Component {
 
   render() {
     return (
+
       <div>
         <div className='navbars fixed-top'>
           <NavBar />
