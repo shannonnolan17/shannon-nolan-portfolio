@@ -9,9 +9,10 @@ const Main = () => (
     <Router>
       <Switch>
         <Route exact path='/' component={App}/>
-        <Route exact path="/contact" component={ContactMe}/>
+        <Route path="/contact" component={ContactMe}/>
       </Switch>
     </Router>
+
   </div>
 )
 

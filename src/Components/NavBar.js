@@ -2,18 +2,22 @@ import React, { Component } from 'react';
 import { Navbar } from 'react-bootstrap';
 import ContactMe from './ContactMe';
 import { Link } from 'react-router-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Main from './Main';
+import App from '../App';
 
 class NavBar extends Component {
   render() {
     return (
       <div className="navbar navbars">
-        <Router>
           <nav class="nav nav-pills nav-fill">
-            <Link to='/'>Home</Link>
-            <Link to='/contact'>Contact Me</Link>
+          <Router>
+            <div>
+              <Link to='/'>Home</Link>
+              <Link to='/contact'>Contact Me</Link>
+            </div>
+          </Router>
           </nav>
-        </Router>
 
       </div>
     );
