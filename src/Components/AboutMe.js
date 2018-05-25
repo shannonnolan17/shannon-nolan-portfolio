@@ -32,7 +32,7 @@ class AboutMe extends Component {
               <li>Photography</li>
               <li>Running</li>
               <li>Yoga</li>
-              <li>Listening to music too loud</li>
+              <li>Music</li>
               <li>Cookies</li>
               <li>Dogs</li>
               <li>Makeup</li>

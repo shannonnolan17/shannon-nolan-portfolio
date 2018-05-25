@@ -9,15 +9,15 @@ import App from '../App';
 class NavBar extends Component {
   render() {
     return (
-      <div className="navbar navbars">
-          <nav class="nav nav-pills nav-fill">
-
-            <div>
-              <Link to='/'>Home</Link>
-              <Link to='/contact'>Contact Me</Link>
-            </div>
-
-          </nav>
+      <div className="navbar navbars fixed-top">
+        <div>
+          <Link to='/'>Home</Link>
+          <Link to='/contact'>Contact Me</Link>
+        </div>
+        <div>
+          <Route path="/" component={App}/>
+          <Route path="/contact" component={ContactMe}/>
+        </div>
 
       </div>
     );
