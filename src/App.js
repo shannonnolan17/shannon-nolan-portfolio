@@ -30,7 +30,7 @@ class App extends Component {
 
       <div>
         <div className='navbars fixed-top'>
-          <NavBar />
+
         </div>
 
         <div className="flex-parent">
