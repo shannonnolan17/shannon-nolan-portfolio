@@ -7,8 +7,10 @@ class Projects extends Component {
         <div>
           <h1 className="title responsive-text">Projects</h1>
           <div className="social">
-            <p className="second-title">Check out the projects on GitHub:</p>
-            <a href="https://github.com/shannonnolan17"><i id="social-gp" class="fa fa-github fa-3x social"></i></a>
+            <p className="second-title">Check out the projects on GitHub:
+            <a id="github-pic" href="https://github.com/shannonnolan17"><i id="social-gp" className="social-icon fa fa-github fa-3x social"></i></a>
+            </p>
+
           </div>
 
           <h2>The Big Projects</h2>
