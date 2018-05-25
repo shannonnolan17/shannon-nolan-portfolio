@@ -3,10 +3,18 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render() {
     return (
-      <div className="Footer">
-        <a href="https://github.com/shannonnolan17"><img className="social-icon" src="https://s10.postimg.org/t1xakfm7d/social-github.png" alt="github" /></a>
-        <a href="https://www.linkedin.com/in/shannonnolan/"><img className="social-icon" src="https://s10.postimg.org/4umtaeszd/social-linkedin.png" alt="github" /></a>
-      </div>
+
+      <section id="lab_social_icon_footer">
+
+        <div>
+          <div class="text-center center-block">
+            <a href="https://twitter.com/shannolan"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+            <a href="https://github.com/shannonnolan17"><i id="social-gp" class="fa fa-github fa-3x social"></i></a>
+            <a href="mailto:smnolan7@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+          </div>
+        </div>
+      </section>
+
     );
   }
 }

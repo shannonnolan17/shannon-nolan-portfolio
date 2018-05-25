@@ -22,17 +22,17 @@ class AboutMe extends Component {
                 <li>Ruby</li>
                 <li>JavaScript</li>
                 <li>SQL</li>
+                <li>And many more!</li>
               </ul>
             </div>
           <div className= "flex-parent">
             <div className="flex-child hobbies">
-              <h3>Let's get personal</h3>
-              <p>I have hobbies and likes. Here are some:</p>
+              <h3>Hobbies and Likes:</h3>
               <ul>
               <li>Photography</li>
               <li>Running</li>
               <li>Yoga</li>
-              <li>Listening to music too loud</li>
+              <li>Music</li>
               <li>Cookies</li>
               <li>Dogs</li>
               <li>Makeup</li>
@@ -46,13 +46,15 @@ class AboutMe extends Component {
               <h3>What am I up to?</h3>
               <p>I'm always learning! Currently I am learning all about...</p>
               <ul>
-              <li>ReactJS</li>
               <li>SASS</li>
               <li>Flex Box</li>
               <li>Carousels</li>
               <li>Sticky stuff</li>
               <li>Python</li>
               <li>Redux</li>
+              <li>Elixir</li>
+              <li>Phoenix</li>
+              <li>All the APIs</li>
               </ul>
             </div>
         </div>

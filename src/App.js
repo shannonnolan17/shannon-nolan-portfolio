@@ -29,8 +29,8 @@ class App extends Component {
     return (
 
       <div>
-        <div className='navbars fixed-top'>
-          <NavBar />
+        <div>
+          <Navbar />
         </div>
 
         <div className="flex-parent">
