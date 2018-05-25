@@ -9,7 +9,7 @@ import App from '../App';
 class NavBar extends Component {
   render() {
     return (
-      <div className="navbar navbars fixed-top">
+      <nav>
         <div>
           <Link to='/'>Home</Link>
           <Link to='/contact'>Contact Me</Link>
@@ -18,8 +18,7 @@ class NavBar extends Component {
           <Route path="/" component={App}/>
           <Route path="/contact" component={ContactMe}/>
         </div>
-
-      </div>
+      </nav>
     );
   }
 }

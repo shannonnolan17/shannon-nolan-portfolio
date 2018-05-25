@@ -8,10 +8,10 @@ class Projects extends Component {
           <h1 className="title responsive-text">Projects</h1>
           <div className="social">
             <p className="second-title">Check out the projects on GitHub:</p>
-            <a href="https://github.com/shannonnolan17"><img className="social-icon project-icon" src="https://s10.postimg.org/t1xakfm7d/social-github.png" alt="github" /></a>
+            <a href="https://github.com/shannonnolan17"><i id="social-gp" class="fa fa-github fa-3x social"></i></a>
           </div>
 
-          <h2>The Big Kahunas</h2>
+          <h2>The Big Projects</h2>
           <div className="project-descriptions paragraph-text flex-parent">
 
 
@@ -43,8 +43,6 @@ class Projects extends Component {
             </div>
           </div>
 
-        <h2>The Not-As-Big-Kahunas</h2>
-        <p>The Reelist- A client based project. Those polymorphic associations though...</p>
 
         </div>
 

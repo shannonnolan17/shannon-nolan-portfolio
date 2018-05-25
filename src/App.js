@@ -7,7 +7,7 @@ import AboutMe from './Components/AboutMe';
 // import Main from './Components/Main';
 import ContactMe from './Components/ContactMe';
 import Footer from './Components/Footer';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+// import { Route, Link } from 'react-router-dom';
 // import ContactMe from './Components/ContactMe';
 import Projects from './Components/Projects';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
@@ -30,7 +30,7 @@ class App extends Component {
 
       <div>
         <div>
-          <Navbar />
+
         </div>
 
         <div className="flex-parent">
