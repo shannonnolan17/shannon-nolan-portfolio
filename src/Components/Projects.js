@@ -14,10 +14,10 @@ class Projects extends Component {
           </div>
 
           <h2>The Big Projects</h2>
-          <div className="project-descriptions paragraph-text flex-parent">
+          <div className="container project-descriptions paragraph-text flex-parent">
 
-
-            <div className="forever-aloaner">
+          <section className="container">
+            <div className="container forever-aloaner">
               <img className="project-image flex-child" src={require('../landing-page.png')} alt="Forever Aloaner Home Page"/>
               <p className="flex-child">Forever Aloaner is a full rails web application that allows users to interact, chat, loan, and borrow items from one another. Some features include:</p>
               <ul>
@@ -31,9 +31,10 @@ class Projects extends Component {
 
               <a href="https://foreveraloaner.herokuapp.com/">See it deployed!</a>
             </div>
+          </section>
 
-
-            <div className="good-grief vertical-line">
+          <section className="container">
+            <div className="container good-grief vertical-line">
               <img className="project-image flex-child" src={require('../home_page.png')} alt="Forever Aloaner Home Page"/>
               <p className="project-text flex-child">Good Grief is a mobile-first web application that strives to assist people move through the five stages of grief after a relationship dissolution. It aims to facilitate the process of healing from a broken heart by providing a collection of resources specifically tailored to each stage, as well as a safe environment to connect with others going through similar experiences. Some features include:</p>
               <ul>
@@ -43,6 +44,7 @@ class Projects extends Component {
                 <li>Users can chat with other users who are in the same stage in a chatroom</li>
               </ul>
             </div>
+          </section>
           </div>
 
 
