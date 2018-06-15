@@ -4,7 +4,7 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="about-me container">
-        <h1 className="container-fluid title inline-css responsive-text">About Me</h1>
+        <h1 className="container title responsive-text">About Me</h1>
         <div className="pictures">
           <img className="about-me-pic" src={require('../IMG_6489.JPG')} alt="me"/>
         </div>
