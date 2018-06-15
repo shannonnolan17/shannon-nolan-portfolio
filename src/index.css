@@ -16,6 +16,9 @@ body {
 .carousel-image {
   height: 770px;
   width: 100%;
+  @media only screen and (max-width: 1500px) {
+    height: 550px;
+  }
 }
 
 .carousel-title {
@@ -24,7 +27,7 @@ body {
   font-size: 150px;
   font-weight: bold;
   @media only screen and (max-width: 1500px) {
-    font-size:50px;
+    font-size: 50px;
   }
 }
 
@@ -34,7 +37,7 @@ body {
   right: 45%;
   overflow: auto;
   @media only screen and (max-width: 1024px) {
-    top: 35%;
+    top: 30%;
     left: 15%;
     right: 45%;
   }
@@ -205,14 +208,3 @@ body {
   color: #f39c12;
 }
 
-@media only screen and (max-width: 400px) {
-  .responsive-text { font-size:310%;}
-}
-
-@media only screen and (max-width: 800px) {
-  .responsive-text { font-size:710%;}
-}
-
-@media only screen and (max-width: 1500px) {
-  .responsive-text { font-size:910%;}
-}
