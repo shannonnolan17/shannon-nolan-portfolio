@@ -47,7 +47,7 @@ class App extends Component {
           </div>
         </Carousel>
 
-        <div className="carousel-caption container-fluid flex-parent carousel-text">
+        <div className="carousel-caption container flex-parent carousel-text">
           <h1 className="carousel-title responsive-text">SHANNON NOLAN</h1>
         </div>
 
