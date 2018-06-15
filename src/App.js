@@ -33,7 +33,7 @@ class App extends Component {
 
         </div>
 
-        <div className="flex-parent">
+        <div className="flex-parent container">
 
         <Carousel className="carousel" autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
           <div>
@@ -47,13 +47,13 @@ class App extends Component {
           </div>
         </Carousel>
 
-        <div className="carousel-caption flex-parent carousel-text">
-          <h1 className="carousel-title responsive-text">SHANNON NOLAN</h1>
+        <div className="carousel-caption container flex-parent carousel-text">
+          <h1 className="carousel-title">SHANNON NOLAN</h1>
         </div>
 
         </div>
 
-        <div className="tab-section">
+        <div className="tab-section container">
           <Tabs selectedIndex={this.state.tabIndex} onSelect={tabIndex => this.setState({ tabIndex })}>
 
             <div className="tab flex-parent">
@@ -61,14 +61,18 @@ class App extends Component {
               <Tab>Projects</Tab>
             </div>
 
-            <TabPanel>
-              <div>
-                <AboutMe />
-              </div>
-            </TabPanel>
-            <TabPanel>
-              <Projects />
-            </TabPanel>
+            <div className="contain-fluid tab-section">
+              <TabPanel>
+                <div>
+                  <AboutMe />
+                </div>
+              </TabPanel>
+            </div>
+            <div className="container-fluid tab-section">
+              <TabPanel>
+                <Projects />
+              </TabPanel>
+            </div>
           </Tabs>
         </div>
 
